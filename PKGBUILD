@@ -8,8 +8,6 @@ arch=('any')
 url="https://github.com/zoqaeski/mpvctl"
 license=('MIT')
 depends=('mpv' 'zsh' 'socat' 'jq')
-optdepends=('gxmessage: to view .desktop files' 'perl-file-mimeinfo: to better determine mimetypes')
-#source=("http://appstogo.mcfadzean.org.uk/dl/$pkgname/$pkgname-$pkgver.tar.gz")
 source=('mpvctl.desktop'
         'mpvctl.zsh'
         'LICENSE'
